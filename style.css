@@ -97,6 +97,31 @@ body{
     height: 300px;
     object-fit: cover;
 }
+/* small screens: stack the layout instead of squeezing it */
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .navbar_s2 {
+        width: 100%;
+    }
+    .banner {
+        padding: 40px 20px;
+        font-size: 32px;
+    }
+    .Travel-Card {
+        width: 100%;
+    }
+    .Travel-Card img {
+        height: 200px;
+    }
+    .footer__one {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
 .image img{
     width: 100%;
 }
