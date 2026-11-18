@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.navbar{
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    position: sticky;
+    z-index: 1;
+}
+.navbar_s1{
+    color:white;
+}
+
+    
+.navbar_s2 {
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 10PX;
+    color: white;
+    
+}
+
+.navbar_s2 input {
+    border: none;
+    outline: none;
+    background: transparent;
+   font-size: 16PX;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 10px;}
+
+.navbar_s2 input :focus{
+    border: none;
+    outline: none;
+
+}
+
+.navbar_s3{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.image{
+    position: relative;
+}
+
+.banner{
+    padding: 60px 250px;
+    font-size: 50px;
+    font-family: "Young Serif", serif;
+    color: white;
+    text-align: center;
+}
+
+.recomended{
+    padding: 10px;
+    color: black;
+}
+.recomended__title {
+    font-size: 40px;
+}
+
+/* one framed box holding three equal photos */
+.recomended__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px 20px 0;
+    padding: 0;
+    border: solid black 1px;
+    background-color: white;
+}
+.Travel-Card {
+    width: 33.33%;
+    padding: 10px;
+}
+.Travel-Card img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.image img{
+    width: 100%;
+}
+
+
+.footer {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    color: white;
+    padding: 20px 10px;
+
+}
+
+.footer__one {
+    display: flex;
+    gap: 60px;
+    padding: 20px;
+
+}
+
+.footer__one p {
+    margin: 20px;
+}
+
+.footer__two{
+    margin: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+.footer__two p{
+    font: 2rem;
+}
+
+
+
